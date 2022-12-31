@@ -1,0 +1,38 @@
+/* universal selector */
+* {
+    
+}
+
+/* element selector */
+body {
+  font-size: 22px;
+}
+
+/* more than o declaration with comma */
+h1,
+h2 {
+  color: blue;
+}
+
+p {
+  color: purple;
+}
+
+/* makes more sense use class selector */
+p span {
+  text-transform: uppercase;
+  background-color: gold;
+}
+
+/* -------------------------- */
+
+/* class selector */
+.gray {
+  color: gray;
+}
+
+/* -------------------------- */
+
+#second {
+  font-style: italic;
+}
